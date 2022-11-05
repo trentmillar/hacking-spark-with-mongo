@@ -29,5 +29,10 @@ prepare:
 build-migrate:
 	make -C migrate build
 
+migrate-up:
+	migrate/dist/mongodb_migration up "mongodb://localhost:27017/hacking" file://./migrations
+
+migrate-down:
+	migrate/dist/mongodb_migration down "mongodb://localhost:27017/hacking" file://./migrations
 
 all: create-network up get-submodules prepare build-migrate
