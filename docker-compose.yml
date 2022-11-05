@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo:6
+    networks:
+      - hacking
+    ports:
+      - 27017:27017
+networks:
+  hacking:
+    driver: bridge
