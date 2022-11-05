@@ -1,0 +1,14 @@
+[
+    {
+        "update": "domains",
+        "updates": [
+            {
+                "q": {},
+                "u": {
+                    "display": ""
+                },
+                "multi": false
+            }
+        ]
+    }
+]

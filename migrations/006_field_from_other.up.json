@@ -1,0 +1,20 @@
+[
+    {
+        "aggregate": "domains",
+        "pipeline": [
+            {
+                "$project": {
+                    "_id": 1,
+                    "project": 1,
+                    "domain": 1,
+                    "deleted": 1,
+                    "display": { "$concat": ["project", "-", "domain"] }
+                }
+            },
+            {
+                "$out": "domains"
+            }
+        ],
+        "cursor": {}
+    }
+]

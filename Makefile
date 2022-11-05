@@ -1,11 +1,13 @@
+SHELL := /bin/bash
+
 # ////////////////////////////////////////////////////
 # Docker stuff
 
 create-network:
-	docker network create -d bridge hacking
+	docker network create -d bridge hacking || (echo "exit code, $$?"; exit 0)
 
 up:
-	docker-compose -f docker-compose.yml up #-d
+	docker-compose -f docker-compose.yml up -d
 
 down:
 	docker-compose -f docker-compose.yml down
@@ -35,4 +37,5 @@ migrate-up:
 migrate-down:
 	migrate/dist/mongodb_migration down "mongodb://localhost:27017/hacking" file://./migrations
 
-all: create-network up get-submodules prepare build-migrate
+created: create-network up get-submodules prepare build-migrate migrate-up
+destroy: down

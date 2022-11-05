@@ -1,0 +1,16 @@
+[
+    {
+        "update": "domains",
+        "updates": [
+            {
+                "q": {},
+                "u": {
+                    "$unset": {
+                        "deleted": true
+                    }
+                },
+                "multi": true
+            }
+        ]
+    }
+]

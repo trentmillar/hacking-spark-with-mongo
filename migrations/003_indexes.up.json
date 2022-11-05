@@ -1,0 +1,20 @@
+[{
+  "createIndexes": "domains",
+  "indexes": [
+    {
+      "key": {
+        "domain": 1
+      },
+      "name": "domain_sort_by_asc",
+      "background": true
+    },
+    {
+      "key": {
+        "project": 1
+      },
+      "name": "unique_project",
+      "unique": true,
+      "background": true
+    }
+  ]
+}]

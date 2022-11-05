@@ -1,0 +1,19 @@
+[
+  {
+    "insert": "domains",
+    "documents": [
+      {
+        "domain": "software",
+        "project": "mutiny"
+      },
+      {
+        "domain": "software",
+        "project": "comet"
+      },
+      {
+        "domain": "hardware",
+        "project": "giant"
+      }
+    ]
+  }
+]

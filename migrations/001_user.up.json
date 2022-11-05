@@ -1,0 +1,12 @@
+[
+  {
+    "createUser": "joe",
+    "pwd": "mcmillan",
+    "roles": [
+      {
+        "role": "readWrite",
+        "db": "spark"
+      }
+    ]
+  }
+]

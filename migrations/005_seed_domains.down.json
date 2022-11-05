@@ -1,0 +1,11 @@
+[
+  {
+    "delete": "domains",
+    "deletes": [
+      {
+        "q": { },
+        "limit": 0
+      }
+    ]
+  }
+]
