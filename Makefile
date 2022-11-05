@@ -26,7 +26,7 @@ prepare:
 	pip3 install --upgrade -r requirements.txt
 
 # ////////////////////////////////////////////////////
-# Other stuff
+# Migration stuff
 
 build-migrate:
 	make -C migrate build
@@ -36,6 +36,9 @@ migrate-up:
 
 migrate-down:
 	migrate/dist/mongodb_migration down "mongodb://localhost:27017/hacking" file://./migrations
+
+# ////////////////////////////////////////////////////
+# Rollups
 
 created: create-network up get-submodules prepare build-migrate migrate-up
 destroy: down
