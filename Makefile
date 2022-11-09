@@ -1,6 +1,16 @@
 SHELL := /bin/bash
 
 # ////////////////////////////////////////////////////
+# MacOS stuff
+
+install-spark:
+	brew install scala
+	brew install apache-spark
+
+run-spark:
+	 spark-shell --jars ./bin/mongo-spark-connector-10.0.5.jar
+
+# ////////////////////////////////////////////////////
 # Docker stuff
 
 create-network:
@@ -40,5 +50,5 @@ migrate-down:
 # ////////////////////////////////////////////////////
 # Rollups
 
-created: create-network up get-submodules prepare build-migrate migrate-up
+create: create-network up get-submodules prepare build-migrate migrate-up
 destroy: down
