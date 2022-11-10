@@ -4,5 +4,14 @@
   },
   {
     "create": "runs"
+  },
+  {
+    "create": "people"
+  },
+  {
+    "create": "stocks"
+  },
+  {
+    "create": "sales"
   }
 ]

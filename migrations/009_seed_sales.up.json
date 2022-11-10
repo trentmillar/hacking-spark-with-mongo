@@ -1,0 +1,67 @@
+[
+  {
+    "insert": "sales",
+    "documents": [
+      {
+        "Company": "GOOG",
+        "Person": "Joe",
+        "Sales": 200
+      },
+      {
+        "Company": "GOOG",
+        "Person": "Jane",
+        "Sales": 120
+      },
+      {
+        "Company": "GOOG",
+        "Person": "Jake",
+        "Sales": 340
+      },
+      {
+        "Company": "MSFT",
+        "Person": "Ace",
+        "Sales": 600
+      },
+      {
+        "Company": "MSFT",
+        "Person": "Andy",
+        "Sales": 123
+      },
+      {
+        "Company": "MSFT",
+        "Person": "George",
+        "Sales": 222
+      },
+      {
+        "Company": "FB",
+        "Person": "John",
+        "Sales": 210
+      },
+      {
+        "Company": "FB",
+        "Person": "Sam",
+        "Sales": 999
+      },
+      {
+        "Company": "APPL",
+        "Person": "Johnny",
+        "Sales": 210
+      },
+      {
+        "Company": "APPL",
+        "Person": "Mike",
+        "Sales": 700
+      },
+      {
+        "Company": "APPL",
+        "Person": "Jane",
+        "Sales": 100
+      },
+      {
+        "Company": "APPL",
+        "Person": "Chris",
+        "Sales": 70
+      }
+    ]
+  }
+]

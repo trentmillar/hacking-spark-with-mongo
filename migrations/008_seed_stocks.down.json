@@ -1,0 +1,11 @@
+[
+  {
+    "delete": "stocks",
+    "deletes": [
+      {
+        "q": { },
+        "limit": 0
+      }
+    ]
+  }
+]

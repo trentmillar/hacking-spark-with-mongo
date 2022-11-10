@@ -4,5 +4,14 @@
   },
   {
     "drop": "runs"
+  },
+  {
+    "drop": "people"
+  },
+  {
+    "drop": "stocks"
+  },
+  {
+    "drop": "sales"
   }
 ]

@@ -1,0 +1,18 @@
+[
+  {
+    "insert": "people",
+    "documents": [
+      {
+        "name": "John",
+        "age": 30
+      },
+      {
+        "name": "Joe",
+        "age": 45
+      },
+      {
+        "name": "Jason"
+      }
+    ]
+  }
+]
