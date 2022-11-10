@@ -8,7 +8,7 @@ install-spark:
 	brew install apache-spark
 
 run-spark:
-	 spark-shell --jars ./bin/mongo-spark-connector-10.0.5.jar
+	 spark-shell
 
 # ////////////////////////////////////////////////////
 # Docker stuff
