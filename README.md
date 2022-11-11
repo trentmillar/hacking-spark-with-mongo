@@ -6,6 +6,7 @@ Uses Pyspark and Jupyter to perform spark ops against MongoDB.
 Make sure you have Docker Desktop up and running then run the following Make targets,
 - `make create` will setup MongoDB as a local container populated w/ data
 - `make install-spark` if you haven't installed spark yet run this (Mac/Brew needed)
+- `make run-spark` will now run spark 
 
 ### running Jupyter notebooks
 I am using PyCharm so it takes care of running Jupyter server for me. You'll need that running and targeting the __notebooks__ folder.
